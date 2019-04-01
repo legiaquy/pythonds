@@ -95,7 +95,7 @@ class Vertex:
         return self.connectedTo[nbr]
                 
     def __str__(self):
-        return str(self.id) + ":color " + self.color + ":disc " + str(self.disc) + ":fin " + str(self.fin) + ":dist " + str(self.dist) + ":pred \n\t[" + str(self.pred)+ "]\n"
+        return str(self.id)
     
     def getId(self):
         return self.id
